@@ -1,0 +1,120 @@
+body{
+    background-color: #eee;
+}
+.Navation{
+    width: 100%;
+    background-color:white;
+    padding: 0px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    overflow: hidden;
+    position:fixed;
+    z-index: 111;
+    box-shadow: 0px 4px 10px rgba(3, 3, 3, 0.048);
+}
+.Navation > .LeftNav > .Logo{
+    width: 100px;
+}
+.Navation > .SearckNav{
+    width: 340px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Navation > .SearckNav input{
+    padding: 8px;
+    padding-left: 20px;
+    border: none;
+    background-color: #eee;
+    width: 86%;
+    border-radius: 50px;
+}
+.Navation > .SearckNav button{
+    padding: 8px;
+    border: none;
+    background-color: inherit;
+    border-radius: 20px;
+    width: 14%;
+}
+.Navation > .RightNav ul{
+    display: flex;
+    align-items: center;
+}
+.Navation > .RightNav li{
+    float: left;
+    margin-left: 30px;
+}
+.Navation > .RightNav li a img{
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    border: 1px solid #eee;
+}
+.AriyaFixing{
+    height: 70px;
+}
+/*
+=======
+         Finaly Navation Css closses and complite
+=======
+*/
+
+.BodyPage{
+    width: 80%;
+    margin: auto;
+}
+
+.Home{
+    width: 64%;
+}
+.Home .Contener{
+    background-color: white;
+    padding: 30px;
+    border-radius: 14px;
+    box-shadow: 0px 5px 19px rgba(0, 0, 0, 0.034);
+    margin-bottom: 20px;
+}
+.Home > .Contener > .Top{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+.Home > .Contener > .Top > img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border:1px solid #eee;
+}
+.Home > .Contener > .Top > .HeroDel{
+    margin-left: 10px;
+}
+.Home > .Contener > .Top > .HeroDel > span{
+    margin-top: -2px;
+    display: block;
+}
+.Home > .Contener > .Top > .HeroDel > h4 span{
+    color: rgb(75, 123, 255);
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.Home > .Contener > .Cntr_post{
+    margin-top: 20px;
+}
+.Home > .Contener > .Cntr_post > p{
+    margin-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+.Home > .Contener >.CntBottm{
+    margin-top: 10px;
+}
+.Home > .Contener >.CntBottm a{
+    margin-right: 18px;
+    font-size: 20px;
+}

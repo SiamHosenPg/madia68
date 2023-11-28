@@ -1,0 +1,30 @@
+@media only screen and (max-width: 600px){
+    p,body,a{
+        font-size: 14px;
+    }
+    span{
+        font-size: 13px;
+    }
+    .Navation{
+        padding:0px 30px;
+    }
+    .Navation > .LeftNav > .Logo{
+        width: 70px;
+    }
+    .Navation > .SearckNav{
+        width: 280px;
+    }
+
+    .RightNav{
+        display: none;
+    }
+    .BodyPage{
+        width: 100%;
+    }
+    .Home{
+        width: 100%;
+    }
+
+
+
+}
